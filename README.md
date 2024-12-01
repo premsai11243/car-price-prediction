@@ -1,12 +1,12 @@
-                                  **DOCUMENTATION OF CAR PRICE PREDICTION**
-                                   **THERE  ARE  STEP BY STEP PROCESS**
-<h2>CHANGE UNSTRUCTURED TO STRUCURED DATA</h2>	
-<h6>Unstructured data<h6>
-Imported the necessary library such as( pandas,numpy,..etc)
-	Imported excel files which are given and read the each files 
-The unstructured data is given of dictionary format
+                                  <h2>DOCUMENTATION OF CAR PRICE PREDICTION<h2>
+                                   <h3>THERE  ARE  STEP BY STEP PROCESS<h3>
+<h3>CHANGE UNSTRUCTURED TO STRUCURED DATA</h3>	
+<h5>Unstructured data<h5>
+<h6>Imported the necessary library such as( pandas,numpy,..etc)<h6>
+<h6>Imported excel files which are given and read the each files<h6> 
+<h6>The unstructured data is given of dictionary format<h6>
 
-Eg: {'it': 0, 'ft': 'Petrol', 'bt': 'Hatchback', 'km': '1,20,000', 'transmission': 'Manual', 'ownerNo': 3, 'owner': '3rd Owner', 'oem': 'Maruti', 'model': 'Maruti Celerio', 'modelYear': 2015, 'centralVariantId': 3979, 'variantName': 'VXI', 'price': '₹ 4 Lakh', 'priceActual': '', 'priceSaving': '', 'priceFixedText': None, 'trendingText': {'imgUrl': 'https://stimg.cardekho.com/used-cars/common/icons/trending.svg', 'heading': 'Trending Car!', 'desc': 'High chances of sale in next 6 days'}}
+<h3>Eg: {'it': 0, 'ft': 'Petrol', 'bt': 'Hatchback', 'km': '1,20,000', 'transmission': 'Manual', 'ownerNo': 3, 'owner': '3rd Owner', 'oem': 'Maruti', 'model': 'Maruti Celerio', 'modelYear': 2015, 'centralVariantId': 3979, 'variantName': 'VXI', 'price': '₹ 4 Lakh', 'priceActual': '', 'priceSaving': '', 'priceFixedText': None, 'trendingText': {'imgUrl': 'https://stimg.cardekho.com/used-cars/common/icons/trending.svg', 'heading': 'Trending Car!', 'desc': 'High chances of sale in next 6 days'}}<>
 
 **structured data**
 	For extracting the data from unstructured data by using simple python code of control statement( loop)

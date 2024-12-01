@@ -83,6 +83,4 @@ R-squared: 0.999586751531454
 <h2>Deployment Method</h2>
 
 
-https://github.com/user-attachments/assets/fce9c11a-a15a-42f5-a54d-8a5bbdff9a3b
-
 

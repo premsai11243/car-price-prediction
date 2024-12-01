@@ -74,8 +74,15 @@ it,ft,bt,km,transmission,ownerNo,owner,oem,model,modelYear,centralVariantId,vari
 <li> Trained with linear regression but the performance of very low</li>
 <li> For better performance used another method of random forest regressor. In this method is more efficient then linear regression
 </li>
-
 <li> Given the user input of given trained columns</li>
 
+<h2> MODEL EVALUATE <h2>
+   
+R-squared: 0.999586751531454
+   
 <h2>Deployment Method</h2>
+
+
+https://github.com/user-attachments/assets/fce9c11a-a15a-42f5-a54d-8a5bbdff9a3b
+
 

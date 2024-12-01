@@ -1,8 +1,8 @@
                                   **DOCUMENTATION OF CAR PRICE PREDICTION**
                                    **THERE  ARE  STEP BY STEP PROCESS**
 <h2>CHANGE UNSTRUCTURED TO STRUCURED DATA</h2>	
-**Unstructured data**
-	Imported the necessary library such as( pandas,numpy,..etc)
+<h6>Unstructured data<h6>
+Imported the necessary library such as( pandas,numpy,..etc)
 	Imported excel files which are given and read the each files 
 The unstructured data is given of dictionary format
 

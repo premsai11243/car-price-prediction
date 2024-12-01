@@ -84,3 +84,7 @@ R-squared: 0.999586751531454
 
 
 
+https://github.com/user-attachments/assets/b626a2b1-17eb-42b7-af98-7ea08da760c8
+
+
+

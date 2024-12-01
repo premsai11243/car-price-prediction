@@ -6,35 +6,31 @@ import joblib
 load_saved = joblib.load('D:/Desktop/car price prediction/structured files/predicted_price.sav')
 
 def encode_data(data):
-    
+    # encode the columns which are trained 15 columns
     data_encoded = pd.get_dummies(data, drop_first=True)
     return data_encoded
 
 def prediting(new_data):
-    
+    # create the dataframe for encoded the columns
     new_data_df = pd.DataFrame([new_data], columns=[
         'Fueltype', 'bodytype', 'transmission', 'owner', 'modelYear', 
         'GearBox', 'KmsDriven', 'Mileage', 'cityname'
     ])
-    
-    
-    new_data_encoded = encode_data(new_data_df)
-    
-   
-    missing_cols = set(load_saved.feature_names_in_) - set(new_data_encoded.columns)
+    new_data_encoded = encode_data(new_data_df)# call the dataframe for encode
+    missing_cols = set(load_saved.feature_names_in_) - set(new_data_encoded.columns)# old trained column and new encoded for deployment 
     for col in missing_cols:
         new_data_encoded[col] = 0
     new_data_encoded = new_data_encoded[load_saved.feature_names_in_]
     
     
-    predd = load_saved.predict(new_data_encoded)
+    predd = load_saved.predict(new_data_encoded) # pred the encoded columns
     return f"Predicted price: {predd[0]}"
 
 
 def main():
     st.title("Car Price Prediction")
     
-    
+    # Add a selectbox in the sidebar for the user to select a number
     Fueltype = st.sidebar.selectbox("Fueltype", ['Select', 'petrol', 'Diesel', 'LPG', 'Electric']) 
     bodytype = st.sidebar.selectbox("Body Type", ['Select', 'Hatchback', 'SUV', 'Sedan', 'MUV', 'Coupe', 'Minivans', 'Pickup Trucks', 'Convertibles', 'Wagon'])
     transmission = st.sidebar.selectbox("Transmission", ['Select', 'Automatic', 'Manual'])
@@ -52,7 +48,7 @@ def main():
         if Fueltype == 'Select' or bodytype == 'Select' or transmission == 'Select' or cityname == 'Select':
             st.warning("Please select all the necessary fields.")
         else:
-            
+            # 
             new_data = [
                 Fueltype, bodytype, transmission, owner, modelYear,
                 GearBox, KmsDriven, Mileage, cityname

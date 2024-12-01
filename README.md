@@ -1,16 +1,17 @@
 <h2>DOCUMENTATION OF CAR PRICE PREDICTION
 </h2>
 
-<ul>
-    THERE ARE STEP BY STEP PROCESS
-    <li type="bullet">CHANGE UNSTRUCTURED TO STRUCURED DATA
-        Unstructured data</li>
+
+
+   <h3>CHANGE UNSTRUCTURED TO STRUCURED DATA</h3>
+        <h3> THERE ARE STEP BY STEP PROCESS </h3>
+    <h4>Unstructured data</h4>
     <li>Imported the necessary library such as( pandas,numpy,..etc)
     </li>
     <li>Imported excel files which are given and read the each files
         The unstructured data is given of dictionary format
     </li>
-</ul>
+
 
 
 Eg: {'it': 0, 'ft': 'Petrol', 'bt': 'Hatchback', 'km': '1,20,000', 'transmission': 'Manual', 'ownerNo': 3, 'owner': '3rd
@@ -20,15 +21,13 @@ Owner', 'oem': 'Maruti', 'model': 'Maruti Celerio', 'modelYear': 2015, 'centralV
 sale in next 6 days'}}
 
 
-<ul>
-    structured data
 
+   <h4> structured data </h4>
+<li>For extracting the data from unstructured data by using simple python code of control statement( loop)</li>
+    <li>The file were looks like after extraction</li>
 
-    <li>For extracting the data from unstructured data by using simple python code of control statement( loop)
-    </li>
-    <li>The file were looks like after extraction
-    </li>
-</ul>
+  
+
 
 Eg:
 it,ft,bt,km,transmission,ownerNo,owner,oem,model,modelYear,centralVariantId,variantName,price,priceActual,priceSaving,priceFixedText,trendingText,
@@ -58,9 +57,9 @@ it,ft,bt,km,transmission,ownerNo,owner,oem,model,modelYear,centralVariantId,vari
 
 
 <li>Encode the each every column which are the datatype is object to numerical by using (label encoder and
-    one-hot-encoded)
+    one-hot-encoded) </li>
+<h4>Data visualization:</h4>
 
-    <h4>Data visualization:</h4>
 <li> Descriptive statistic were done first in the visualization process</li>
 <li> Import the necessary library for visualization (matplotlib , seaborn)</li>
 <li> Identify the distribution of each column and visualiszed</li>

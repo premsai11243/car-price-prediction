@@ -30,13 +30,11 @@ sale in next 6 days'}}
 Eg:
 it,ft,bt,km,transmission,ownerNo,owner,oem,model,modelYear,centralVariantId,variantName,price,priceActual,priceSaving,priceFixedText,trendingText,
 0,Petrol,Hatchback,"1,20,000",Manual,3,3rd Owner,Maruti,Maruti Celerio,2015,3979,VXI,₹ 4 Lakh,,,,"
-
-<ul>
     <li>After the extraction converted all file(xlsx to csv) for file handling
     </li>
     <li>Imported the all csv files for analysis and files were concated
     </li>
-</ul>
+
 
 <h2>DATA-PREPROCESSING
 </h2>

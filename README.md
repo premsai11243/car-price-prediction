@@ -74,10 +74,13 @@ it,ft,bt,km,transmission,ownerNo,owner,oem,model,modelYear,centralVariantId,vari
 <h4>MODEL BUILDING
 </h4>
 
-<li> Import the necessary library for model build(train-test-spilt, linear regression ,random forest regressor)</li>
+<li> Import the necessary library for model build(train-test-spilt, linear regression ,random forest regressor , logistic regression)</li>
 <li> Train the model with spilt ratio of 80-20</li>
 <li> Trained with linear regression but the performance of very low</li>
-<li> For better performance used another method of randan forest regressor. In this method is more efficient then linear
+<li> For better performance used another method of random forest regressor. In this method is more efficient then linear
 </li>
 <h4>regression</h4>
 <li> Given the user input of given trained columns</li>
+
+<h4>Deployment Method</h4>
+

@@ -78,7 +78,7 @@ it,ft,bt,km,transmission,ownerNo,owner,oem,model,modelYear,centralVariantId,vari
 
 <h2> MODEL EVALUATE <h2>
    
-R-squared: 0.999586751531454
+R-squared: 0.85
    
 <h2>Deployment Method</h2>
 
